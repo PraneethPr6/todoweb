@@ -1,0 +1,203 @@
+body {
+ padding: 150px;
+}
+.container{
+    display: flex;
+    justify-content: space-between; 
+    font-size: 50px;
+    font-family: sans-serif; 
+    color: gray;
+
+}
+span {
+    color: black;
+    font-weight: bold;
+    
+} 
+.material-icons {
+    color: red;
+    font-size: 40px !important;
+    cursor: pointer;
+   position: relative;
+   left: 380px;
+   top: 14px;
+    
+}
+
+.add{
+    font-size: 30px;
+    padding-top: 15px;
+    padding-right: 100px;
+}
+
+.container1{
+    color: red;
+    display: flex;
+     justify-content: space-around; 
+    
+}
+
+.box{
+border: 2px solid red;
+border-radius: 10px;
+padding: 60px 30px; 
+height: 200px;
+box-shadow: 3px 3px 5px grey;
+}
+.line{
+    position: relative;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+.line:before{ 
+        position: absolute;
+         content:""; 
+        bottom: -0.6rem;
+        height:10%;
+        width: 125%;
+        background-color: gray;
+    }
+    
+.delete{
+    text-decoration: line-through;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+ 
+.plus-container{
+    border: 2px solid red;
+    height: 150px;
+    width: 300px; 
+    border-radius: 10px;
+    text-align: center ;
+    color: red;
+    background-color:whitesmoke;
+    font-family: sans-serif;
+    font-size: larger;
+    margin-top: -250px;
+    margin-left: 70px;
+     text-decoration: none; 
+}
+.fliter{
+    filter: blur(9px);
+
+}
+.ADD {
+    background-color: red;
+    border-radius: 15px;
+    border: red;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.container2 {
+    color: red;
+    display: flex;
+      justify-content: space-around; 
+      position: relative;
+      bottom: 140px;
+      
+     
+}
+h1 { 
+   position: relative;
+   left: 460px;
+   bottom: 70px;
+    font-size: 40px;
+}
+.back {
+    font-size: 40px;
+    position: relative;
+    left: 580px;
+    bottom: 150px;
+}
+ .underline {
+    color:red;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: sans-serif;
+   
+}  
+.arrow {
+    color:red;
+    font-size: 40px !important;
+    cursor: pointer;
+    position: relative;
+    bottom: 70px;
+    left: 150px;
+
+}
+.box1 {
+        border: 2px solid red;
+        border-radius: 10px;
+        padding: 20px 30px; 
+        height: 200px;
+        box-shadow: 3px 3px 5px grey;
+        position: relative;
+        left: 290px;
+        
+        }
+.plus1 {
+    position: relative;
+    right: 350px;
+    top: 60px;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    max-width: 600px;
+    position: relative;
+    
+  }
+  h1:before {
+    content: "";
+   width: 160px;
+    height: 2px;
+    background: black;
+    left: -200px;
+    top: 50%;
+    position: absolute;
+  }
+  h1:after {
+    content: "";
+   
+    width: 160px;
+    height: 2px;
+    background: black;
+    right: 100px;
+    top: 50%;
+    position: absolute;
+  }
+  .line1 {
+    position: relative;
+    font-size: 22px;
+    font-family: sans-serif;
+
+  }
+  .line1::before{
+    position: absolute;
+     content:""; 
+    bottom: -0.6rem;
+    height:10%;
+    width: 120%;
+    background-color: gray;
+}
+.plus-container1{
+    border: 2px solid red;
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center ;
+    color:red;
+    text-decoration: none;
+    background-color:whitesmoke;
+    font-family: sans-serif;
+    font-size: larger;
+    margin-top: -380px;
+    margin-left: 70px;
+     
+}
+
+
+     
